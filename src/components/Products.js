@@ -19,7 +19,6 @@ const Products = () => {
 
     const json = await data.json();
     setList(json);
-    console.log(list);
   };
 
   const addToCart = (product) =>{

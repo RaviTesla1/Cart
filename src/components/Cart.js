@@ -3,7 +3,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useDispatch,useSelector} from "react-redux";
-import { remove, removeAll } from "../store/cartSlice.";
+import { remove } from "../store/cartSlice.";
 
 
 
@@ -16,10 +16,7 @@ const Cart = () => {
    const removeCart = (id) =>{
        dispatch(remove(id));
    }
-   const removeAll = () =>{
-    dispatch(removeAll)
-   }
-
+  
 
     const Cards = product.map((product) => (
         <div className="col-md-12"   style={{marginBottom:"24px"}}>
