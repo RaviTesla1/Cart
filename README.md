@@ -27,8 +27,7 @@ This is a faqs section where user can click on the button and get his / her answ
 ## Demo :
 ![](./Image/Project_1.png)
 
- # [Live Link](https://accordian-p07.netlify.app)
-
+ # [Live Link]()
 ## 🤔 What i have learnt By working on this project
 1. How to use map loop efficiently and loop on the array to get values .
 2. How to use redux toolkit.
